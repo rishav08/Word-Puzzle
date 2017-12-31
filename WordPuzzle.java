@@ -265,8 +265,7 @@ public class WordPuzzle {
 			int type = sc.nextInt();
 			wp.createPuzzle(row, column);
 			wp.printPuzzle();
-			File file = new File("C:/Users/Rishav-PC/eclipse-workspace/Learn/dictionary.txt"); //for absolute path
-			//File file = new File("dictionary.txt"); //for direct path
+			File file = new File("dictionary.txt"); //for direct path
 			//System.err.println(file.getAbsolutePath());
 			try {
 				Scanner fl = new Scanner(file);
